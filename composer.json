@@ -1,0 +1,24 @@
+{
+    "name": "nicholas_io/wp-orchestrator",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nícholas André",
+            "email": "nicholas.andre@10up.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+          "WPOrchestrator\\": "src/"
+        },
+        "files": [ "src/utils.php" ]
+    },
+    "require-dev": {
+        "10up/phpcs-composer": "dev-master",
+        "wp-cli/wp-cli": "^2.4"
+    }
+}
